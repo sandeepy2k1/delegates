@@ -22,6 +22,7 @@
 		64271612192476A70062C252 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642715F1192476A60062C252 /* UIKit.framework */; };
 		6427161A192476A70062C252 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64271618192476A70062C252 /* InfoPlist.strings */; };
 		6427161C192476A70062C252 /* delegatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427161B192476A70062C252 /* delegatesTests.m */; };
+		64271627192476C40062C252 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 64271626192476C40062C252 /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		64271617192476A70062C252 /* delegatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "delegatesTests-Info.plist"; sourceTree = "<group>"; };
 		64271619192476A70062C252 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6427161B192476A70062C252 /* delegatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegatesTests.m; sourceTree = "<group>"; };
+		64271625192476C40062C252 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		64271626192476C40062C252 /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				64271605192476A60062C252 /* ViewController.h */,
 				64271606192476A70062C252 /* ViewController.m */,
 				64271608192476A70062C252 /* Images.xcassets */,
+				64271625192476C40062C252 /* SampleProtocol.h */,
+				64271626192476C40062C252 /* SampleProtocol.m */,
 				642715F4192476A60062C252 /* Supporting Files */,
 			);
 			path = delegates;
@@ -256,6 +261,7 @@
 				64271607192476A70062C252 /* ViewController.m in Sources */,
 				642715FE192476A60062C252 /* AppDelegate.m in Sources */,
 				642715FA192476A60062C252 /* main.m in Sources */,
+				64271627192476C40062C252 /* SampleProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
